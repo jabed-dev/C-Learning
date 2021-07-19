@@ -1,0 +1,16 @@
+{
+    "code-runner.executorMap": {
+        // "c": "cd $dir && gcc $fileName -o .\\Output\\$fileNameWithoutExt && clear && .\\Output\\$fileNameWithoutExt > .\\output.txt && code .\\output.txt",
+        "c": "cd $dir && gcc $fileName -o .\\Output\\$fileNameWithoutExt && clear && .\\Output\\$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o .\\Output\\$fileNameWithoutExt && clear && .\\Output\\$fileNameWithoutExt"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true
+    },
+    "files.associations": {
+        "stdio.h": "c"
+    }
+}
